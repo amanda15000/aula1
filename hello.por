@@ -2,11 +2,16 @@ programa
 {
 	
 	funcao inicio()
-	{cadeia nome
+	{
+cadeia nome
+inteiro idade
 	
 		escreva("Qual seu nome")
 		leia(nome)
 		escreva("boa tarde")
+escreva("qual a sua idade?")
+leia(idade)
+escreva("olá, ", nome," voce tem", idade,"anos")
 	}
 }
 /* $$$ Portugol Studio $$$ 
